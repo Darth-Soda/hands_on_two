@@ -1,10 +1,4 @@
-%% ========================================================================
-%  Accelerometer tracking: (a) plain double integration
-%                          (b) Kalman filter with zero-velocity updates (ZUPT)
-%  mountType = 'foot' : ZUPT whenever the foot is flat on the ground (stance)
-%  mountType = 'hand' : no stance phases exist while walking, so ZUPT is only
-%                       applied in the still periods at the start and end
-%  ========================================================================
+%code for part a and b
 clear; clc; close all;
 
 %% 0. User settings (tune these)
